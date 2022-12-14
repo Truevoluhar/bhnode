@@ -1,0 +1,212 @@
+.opis-image {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.opis-background {
+  margin-left: 0;
+}
+
+.opis-background-reverse {
+  margin-left: 0;
+}
+
+.opis-fotka {
+  height: 40vh;
+  margin-left: 5vw;
+  border-radius: 20px;
+}
+
+.opis-text {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 200px;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+}
+
+.opis-naslov {
+  color: #375aa1;
+  font-size: 3rem;
+}
+.timeline-title {
+  display: flex;
+  justify-content: center;
+}
+.opis-naslov-white {
+  color: #ffffff;
+  font-size: 2.2rem;
+  max-width: 80vw;
+  text-align: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+
+.opis-image-reverse {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.opis-fotka-reverse {
+  height: 40vh;
+  margin-left: -9vw;
+  border-radius: 20px;
+}
+
+.opis-text-reverse {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 100px;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+}
+
+@media only screen and (max-width: 1174px) {
+  .second-top-middle {
+    flex-direction: column;
+    height: 65vh;
+    min-width: 0;
+  }
+  .opis-image {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  .opis-fotka {
+  height: 200px;
+  margin-left: 0vw;
+  border-radius: 20px;
+}
+  .opis-text {
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+}
+  .reverse {
+    flex-direction: column;
+  }
+  .opis-image-reverse {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  min-height: 0;
+  }
+  .opis-text-reverse {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  margin-top: 0;
+}
+  .opis-fotka-reverse {
+  height: 200px;
+  margin-left: 0vw;
+  border-radius: 20px;
+}
+}
+
+@media only screen and (max-height: 800px) {
+  
+  .opis-image-reverse {
+    margin-top: 0px;
+  }
+  .opis-text-reverse {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .second-top-middle {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .opis-image {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  .opis-fotka {
+  height: 200px;
+  margin-left: 0vw;
+  border-radius: 20px;
+}
+  .opis-text {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 25vh;
+}
+  .reverse {
+    flex-direction: column;
+  }
+  .opis-image-reverse {
+  display: none;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  .opis-text-reverse {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 2000px;
+}
+  .opis-fotka-reverse {
+  height: 200px;
+  margin-left: 0vw;
+  border-radius: 20px;
+}
+}

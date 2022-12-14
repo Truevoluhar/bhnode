@@ -1,0 +1,12 @@
+.dogodki {
+  display: flex;
+  justify-content: center;
+  background: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dogodek {
+  width: 450px;
+  padding: 20px;
+}

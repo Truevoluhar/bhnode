@@ -1,0 +1,211 @@
+.first-top-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background: linear-gradient(92.88deg, #4eabe8 19.16%, #4588ca 73.89%, #375aa1 94.72%);
+  z-index: 10;
+}
+
+.second-top-middle {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+}
+
+.cta-container {
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+  min-width: 500px;
+  filter: drop-shadow(0 0 0.15rem black);
+  z-index: 30;
+}
+
+/* ---------------------------------------- */
+/* ------------------CTA---------------------- */
+/* ---------------------------------------- */
+
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 0.15rem black);
+  justify-content: center;
+  align-items: center;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #303c87;
+  clip-path: circle(250px at 50% 50%);
+  transition: 0.5s ease-in-out;
+  z-index: 150;
+}
+
+.card:hover::before {
+    clip-path: circle(0px at 50% 50%);
+}
+
+.cta-title {
+  display: block;
+  z-index: 155;
+  color: white;
+  transition: 0.6s ease-in-out;
+  font-family: 'EB Garamond', serif;  
+  font-size: 3rem;
+}
+
+.card:hover .cta-title {
+  display: none;
+}
+
+.cta-content {
+  display: none;
+  flex-direction: column; 
+  width: 50vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-text {
+  font-family: 'EB Garamond', serif;  
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.card:hover .cta-content {
+  display: flex;
+}
+
+.phone {
+  width: 200px;
+}
+
+@media only screen and (max-width: 1174px) {
+  .second-top-middle {
+    flex-direction: column;
+  }
+  .first-top-middle {
+      margin-top: -50px;
+
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+  .second-top-middle {
+    height: auto;
+  }
+  
+  .card {
+    width: 700px;
+    height: 300px;
+    margin: 5vh;
+  }
+  .card::before {
+    clip-path: circle(200px at 50% 50%);
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .card {
+  width: 600px;
+  height: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .first-top-middle {
+  width: 100vw;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+  .second-top-middle {
+    height: 50vh;
+  }
+  
+  .card {
+    width: 400px;
+    height: 250px;
+    margin: 5vh;
+  }
+  .card::before {
+    clip-path: circle(300px at 50% 50%);
+  }
+}
+
+
+
+
+
+/* ---------------------------------------- */
+/* BUTTON 37 */
+/* ---------------------------------------- */
+
+.button-37 {
+  background-image: linear-gradient(92.88deg, #4eabe8 19.16%, #4588ca 73.89%, #375aa1 94.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 160px;
+  margin-left: 0vw;
+  margin-top: 1vh;
+}
+
+.button-37:hover {
+  box-shadow: rgba(48, 60, 135, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 0 2.6rem;
+  }
+}
+
+
+.displayflex {
+  display: flex;
+}
+.displaynone {
+  display: none;
+}

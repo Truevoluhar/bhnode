@@ -1,0 +1,8 @@
+font-family: 'EB Garamond', serif;
+font-family: 'Righteous', cursive;
+
+
+skrajni light blue: 4eabe8;
+skrajni dark blue: 303c87;
+main dark blue: 375aa1;
+main light blue: 4588ca;
